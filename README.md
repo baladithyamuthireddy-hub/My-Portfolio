@@ -71,16 +71,21 @@ cd Portfolio
 Simply open `index.html` in your browser.
 
 ---
-
 ## 📂 Project Structure
 
 ```bash
-portfolio/
+My-Portfolio/
 │
 ├── index.html
 ├── style.css
 ├── script.js
+├── Home-Page.png
+├── login-page.png
+├── Tic-Tac-Toe.png
+├── Projects.png
 └── README.md
+```
+
 ```
 
 ---
