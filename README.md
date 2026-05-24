@@ -45,7 +45,7 @@ The project was built with a focus on clean UI, responsive design, and beginner-
 ## 📸 Screenshots
 
 ### 🖥️ Homepage
-![Homepage](Home Page.png)
+![Homepage](Home-Page.png)
 
 ### 🚀 Projects Section
 ![Projects Section](Projects.png)
