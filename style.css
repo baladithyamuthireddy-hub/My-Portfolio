@@ -24,7 +24,6 @@ section {
   padding: 100px 10%;
 }
 
-/* NAVBAR */
 .navbar {
   position: fixed;
   top: 0;
@@ -65,7 +64,7 @@ section {
   color: white;
 }
 
-/* HERO */
+
 .hero {
   min-height: 100vh;
 
@@ -146,7 +145,6 @@ section {
   border: 1px solid #2d3748;
 }
 
-/* SECTION */
 .section-title {
   margin-bottom: 50px;
 }
@@ -160,7 +158,6 @@ section {
   color: #c7c7c7;
 }
 
-/* SKILLS */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -180,7 +177,6 @@ section {
   transform: translateY(-4px);
 }
 
-/* PROJECTS */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -217,7 +213,6 @@ section {
   text-decoration: none;
 }
 
-/* CONTACT */
 .contact-box {
   background: #171a21;
   padding: 35px;
@@ -229,7 +224,6 @@ section {
   gap: 14px;
 }
 
-/* FOOTER */
 footer {
   padding: 30px;
   text-align: center;
@@ -237,7 +231,6 @@ footer {
   border-top: 1px solid #262b36;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
 
   .hero {
@@ -262,4 +255,20 @@ footer {
   .nav-links {
     gap: 18px;
   }
+}
+.project-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.project-card{
+    background: #161b22;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-5px);
 }
